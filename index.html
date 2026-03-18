@@ -325,7 +325,7 @@ textarea{resize:vertical;min-height:60px;}
   </div>
 
   <div class="sec">Cursos con Alerta</div>
-  <p style="font-size:.77em;color:#666;margin-bottom:10px;">Agrega todos los cursos que presentan problemas. Puedes agregar hasta 8 cursos.</p>
+  <p style="font-size:.77em;color:#666;margin-bottom:10px;">Agrega todos los cursos que presentan problemas. Puedes agregar hasta 13 cursos.</p>
 
   <table class="cursos-tabla" id="cursosTabla">
     <thead>
@@ -547,7 +547,7 @@ function selBloque(el){
 
 function agregarCurso(){
   const tbody=document.getElementById('cursosBody');
-  if(tbody.children.length>=8){
+  if(tbody.children.length>=13){
     document.getElementById('btnAgregar').style.display='none';
     return;
   }
